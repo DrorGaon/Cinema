@@ -1,0 +1,59 @@
+body {
+    background: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+  
+h1 {
+    text-align: center;
+}
+
+.cinema {
+    width: 600px;
+    margin: 60px auto;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.cell {
+    width: 35px;
+    height: 50px;
+    border-radius: 7px;
+}
+.seat {
+    background-color: #761818;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: orange;
+}
+.booked {
+    background-color: red;
+}
+.seat.booked:hover {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.popup {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    background-color: orange;
+    padding: 20px;
+}
+
+.popup .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
