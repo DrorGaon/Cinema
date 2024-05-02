@@ -22,6 +22,7 @@ table {
     width: 35px;
     height: 50px;
     border-radius: 7px;
+    transition: 500ms;
 }
 .seat {
     background-color: #761818;
@@ -46,6 +47,8 @@ table {
 
     background-color: orange;
     padding: 20px;
+
+    border-radius: 5%;
 }
 
 .popup .btn-close {
@@ -56,4 +59,25 @@ table {
     background-color: transparent;
     border: 1px solid white;
     color: white;
+}
+
+.btn-book-seat{
+    width: 100%;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+.btn-highlight{
+    background-color: transparent;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: lightblue;
 }
